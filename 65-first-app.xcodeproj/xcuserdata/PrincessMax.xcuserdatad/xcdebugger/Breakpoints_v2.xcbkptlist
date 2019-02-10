@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "65-first-app/swift.swift"
+            timestampString = "571504248.546487"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "9"
+            endingLineNumber = "9"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_5_first_app.imageCell.__allocating_init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; _5_first_app.imageCell"
+                  moduleName = "65-first-app"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/PrincessMax/xcode-projects/65-first-app/65-first-app/swift.swift"
+                  timestampString = "571500675.155671"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_5_first_app.imageCell.init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; _5_first_app.imageCell"
+                  moduleName = "65-first-app"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/PrincessMax/xcode-projects/65-first-app/65-first-app/swift.swift"
+                  timestampString = "571500675.158933"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "57">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_5_first_app.imageCell.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;_5_first_app.imageCell&gt;"
+                  moduleName = "65-first-app"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/PrincessMax/xcode-projects/65-first-app/65-first-app/swift.swift"
+                  timestampString = "571500675.161854"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_5_first_app.imageCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;_5_first_app.imageCell&gt;"
+                  moduleName = "65-first-app"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/PrincessMax/xcode-projects/65-first-app/65-first-app/swift.swift"
+                  timestampString = "571500675.1648411"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "50">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_5_first_app.imageCell.__deallocating_deinit"
+                  moduleName = "65-first-app"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/PrincessMax/xcode-projects/65-first-app/65-first-app/swift.swift"
+                  timestampString = "571500675.167587"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "65-first-app/Extentions/UITableViewCellExtentions.swift"
+            timestampString = "571504248.547013"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
