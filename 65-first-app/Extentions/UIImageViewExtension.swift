@@ -10,11 +10,11 @@ import UIKit
 extension UIImageView {
   
     func downloadedFrom(url:URL) {
-        self.alpha = 0.65
-        self.image = #imageLiteral(resourceName: "loading")
-        let activityIndicator = UIActivityIndicatorView(activityIndicatorStyle: .whiteLarge)
+        let activityIndicator = UIActivityIndicatorView(activityIndicatorStyle: .gray)
         activityIndicator.frame = CGRect(x: 0, y: 0, width: 46, height: 46)
+        activityIndicator.center = self.center
         activityIndicator.startAnimating()
+        activityIndicator.hidesWhenStopped = true
         
         self.addSubview(activityIndicator)
         DispatchQueue.global().async {
@@ -22,7 +22,9 @@ extension UIImageView {
                 guard let data = data , error == nil, let image = UIImage(data: data) else { self.image = #imageLiteral(resourceName: "loading") ; return }
                 DispatchQueue.main.async { () -> Void in
                     self.image = image
-                    UIView.animate(withDuration: 1) {
+                    self.alpha = 0.65
+                    activityIndicator.stopAnimating()
+                    UIView.animate(withDuration: 2) {
                         self.alpha = 1
                     }
                 }
