@@ -9,6 +9,6 @@
 import Foundation
 import UIKit
 class TableViewCell:  UITableViewCell {
-    var index: Int?
     @IBOutlet weak var tableViewCellImage: UIImageView!
 }
+

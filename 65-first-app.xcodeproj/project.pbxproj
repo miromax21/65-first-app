@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E767F90E221F058100ECA1A9 /* CellWithImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E767F90D221F058100ECA1A9 /* CellWithImageModel.swift */; };
+		E767F912221F068700ECA1A9 /* DataCellWithImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E767F911221F068700ECA1A9 /* DataCellWithImageModel.swift */; };
+		E767F914221F06E600ECA1A9 /* DataCellWithImageFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E767F913221F06E600ECA1A9 /* DataCellWithImageFunctions.swift */; };
 		E7B8F3C622105062000A5B35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B8F3C522105062000A5B35 /* AppDelegate.swift */; };
 		E7B8F3CD22105064000A5B35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7B8F3CC22105064000A5B35 /* Assets.xcassets */; };
 		E7B8F3D022105064000A5B35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7B8F3CE22105064000A5B35 /* LaunchScreen.storyboard */; };
@@ -18,6 +21,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E767F90D221F058100ECA1A9 /* CellWithImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellWithImageModel.swift; sourceTree = "<group>"; };
+		E767F911221F068700ECA1A9 /* DataCellWithImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCellWithImageModel.swift; sourceTree = "<group>"; };
+		E767F913221F06E600ECA1A9 /* DataCellWithImageFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCellWithImageFunctions.swift; sourceTree = "<group>"; };
 		E7B8F3C222105062000A5B35 /* 65-first-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "65-first-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7B8F3C522105062000A5B35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E7B8F3CC22105064000A5B35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -41,6 +47,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E767F90C221F054800ECA1A9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E767F910221F067600ECA1A9 /* DataCellWithImageModel */,
+				E767F90F221F064100ECA1A9 /* CellWithImage */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E767F90F221F064100ECA1A9 /* CellWithImage */ = {
+			isa = PBXGroup;
+			children = (
+				E767F90D221F058100ECA1A9 /* CellWithImageModel.swift */,
+			);
+			path = CellWithImage;
+			sourceTree = "<group>";
+		};
+		E767F910221F067600ECA1A9 /* DataCellWithImageModel */ = {
+			isa = PBXGroup;
+			children = (
+				E767F911221F068700ECA1A9 /* DataCellWithImageModel.swift */,
+				E767F913221F06E600ECA1A9 /* DataCellWithImageFunctions.swift */,
+			);
+			path = DataCellWithImageModel;
+			sourceTree = "<group>";
+		};
 		E7B8F3B922105061000A5B35 = {
 			isa = PBXGroup;
 			children = (
@@ -61,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				E7B8F3DE221067B2000A5B35 /* Extentions */,
+				E767F90C221F054800ECA1A9 /* Model */,
 				E7B8F3D9221066CB000A5B35 /* TableViewController */,
 				E7B8F3C522105062000A5B35 /* AppDelegate.swift */,
 				E7B8F3CC22105064000A5B35 /* Assets.xcassets */,
@@ -163,9 +196,12 @@
 			files = (
 				E7B8F3E0221067EF000A5B35 /* UIImageViewExtension.swift in Sources */,
 				E7B8F3E22210686B000A5B35 /* TableViewCell.swift in Sources */,
+				E767F914221F06E600ECA1A9 /* DataCellWithImageFunctions.swift in Sources */,
 				E7B8F3E422106B4F000A5B35 /* UITableViewCellExtentions.swift in Sources */,
+				E767F90E221F058100ECA1A9 /* CellWithImageModel.swift in Sources */,
 				E7B8F3C622105062000A5B35 /* AppDelegate.swift in Sources */,
 				E7B8F3DB2210670D000A5B35 /* TableViewController.swift in Sources */,
+				E767F912221F068700ECA1A9 /* DataCellWithImageModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
